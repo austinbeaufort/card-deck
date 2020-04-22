@@ -1,0 +1,16 @@
+{
+  "name": "classic-deck",
+  "version": "1.0.0",
+  "description": "A Deck of 52 shuffled Cards and basic methods to get you started in creating card games with JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Austin Beaufort",
+  "license": "ISC",
+  "dependencies": {
+    "ez-read": "^1.0.8",
+    "node-emoji": "^1.10.0"
+  }
+}

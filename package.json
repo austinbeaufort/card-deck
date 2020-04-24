@@ -10,7 +10,6 @@
   "author": "Austin Beaufort",
   "license": "ISC",
   "dependencies": {
-    "ez-read": "^1.0.8",
-    "node-emoji": "^1.10.0"
+    "ez-read": "^1.0.8"
   }
 }

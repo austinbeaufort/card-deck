@@ -5,7 +5,7 @@ const initializeDeck = require('./deck-init');
 class Deck {
     constructor() 
     {
-    this.suits = freeze(require('./suits-init'));
+    this.suits = freeze(['S', 'H', 'D', 'C']);
     this.ranks = freeze(['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']);
     this.deck = shuffle(initializeDeck(this.suits, this.ranks));
     }
@@ -32,6 +32,5 @@ class Deck {
         return hand;
     }
 }
-
 
 module.exports = Deck;

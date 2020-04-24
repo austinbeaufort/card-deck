@@ -1,6 +1,6 @@
 {
   "name": "classic-deck",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Deck of 52 shuffled Cards and basic methods to get you started in creating card games with JavaScript.",
   "main": "index.js",
   "scripts": {

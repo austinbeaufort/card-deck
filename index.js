@@ -31,6 +31,12 @@ class Deck {
         this.deck = drop(num, this.deck);
         return hand;
     }
+
+    reset()
+    {
+        this.deck = shuffle(initializeDeck(this.suits, this.ranks));
+    }
 }
+
 
 module.exports = Deck;
